@@ -6,4 +6,4 @@ def test_revenue_positive():
 
 
 def test_revenue_zero():
-    assert calculate_revenue(100, 0) == 100
+    assert calculate_revenue(100, 0) == 0
